@@ -12,11 +12,15 @@ public class Main {
 
    // private static Logger log = LoggerFactory.getLogger(Main.class);
     private static ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
-    private static Parser parser = applicationContext.getBean(Parser.class);
+   // private static Parser parser = applicationContext.getBean(Parser.class);
+    private static Parser2 parser = applicationContext.getBean(Parser2.class);
 
     public static void main(String[] args) {
         try {
-            parser.parse();
+            //Берем документ Word, парсим его
+            //parser.parse();
+            //Выводим распарсенные данные в Excel
+            parser.parseOutExcel(parser.parse());
         } catch (ParseException exception) {
             String message = exception.getMessage();
             if (exception.getCause() != null) {
