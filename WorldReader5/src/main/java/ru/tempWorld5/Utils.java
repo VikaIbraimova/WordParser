@@ -38,6 +38,41 @@ public class Utils {
         return file.toString();
     }
 
+    /*public XWPFDocument getDocumentFromFile(String filepath) {
+        try (InputStream is = new FileInputStream(filepath)) {
+            //берем книгу
+            return new  XWPFDocument(is);
+        } catch (FileNotFoundException e) {
+            //log.error("file not found: {}", filepath);
+            throw new ParseException("file not found: " + filepath + "\n", e);
+        } catch (IOException e) {
+            //log.error("IOException for: {}", filepath);
+            throw new ParseException("unexpected IO error while reading file " + filepath + "\n", e);
+        }
+    }*/
+    public XSSFWorkbook getWorkBookFromFile(String filepath) {
+        try (InputStream is = new FileInputStream(filepath)) {
+//                берем книгу
+            return new XSSFWorkbook(is);
+        } catch (FileNotFoundException e) {
+            //log.error("file not found: {}", filepath);
+            throw new ParseException("file not found: " + filepath + "\n", e);
+        } catch (IOException e) {
+            //log.error("IOException for: {}", filepath);
+            throw new ParseException("unexpected IO error while reading file " + filepath + "\n", e);
+        }
+    }
+
+    public void saveWorkbook(Workbook workbook, String file) {
+        try (FileOutputStream outputStream = new FileOutputStream(file)) {
+            //log.trace("сохраняем файл: {}", file);
+            workbook.write(outputStream);
+        } catch (IOException e) {
+            //log.error("не удаётся сохранить книгу {}", file);
+            throw new ParseException("can't save book\n", e);
+        }
+    }
+
     public XWPFDocument getDocumentFromFile(String filepath) {
         try (InputStream is = new FileInputStream(filepath)) {
             //берем книгу

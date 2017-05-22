@@ -23,14 +23,14 @@ import java.util.regex.Pattern;
 
 
 @Component
-public class Parser2 {
+public class Parser3 {
     private Utils utils;
 
     //Данные,сюда заливаем из Word
     Map<String,String> cellData = null;
 
     @Autowired
-    public Parser2(Utils utils) {
+    public Parser3(Utils utils) {
         this.utils = utils;
     }
 
@@ -153,17 +153,15 @@ public class Parser2 {
         String outputFile = utils.getOutputFile();
         Workbook outputWorkbook = utils.getWorkBookFromFile(outputFile); // output книга
         Sheet outputFileSheet = outputWorkbook.getSheetAt(0); //лист, сюда будем писать
-        for (Iterator<Row> outputRowIterator = outputFileSheet.rowIterator(); outputRowIterator.hasNext(); ){
-            Row outputRow = outputRowIterator.next();
+        for (Map.Entry entry : cellData.entrySet()) {
+            //System.out.println("Key: " + entry.getKey() + " Value: " + entry.getValue());
+            for (Iterator<Row> outputRowIterator = outputFileSheet.rowIterator(); outputRowIterator.hasNext(); ){
+                Row outputRow = outputRowIterator.next();
                 outputRow = outputRowIterator.next();
-            Iterator<Cell> cellIterator = outputRow.cellIterator();
-            while (cellIterator.hasNext()){
-                Cell cell = cellIterator.next();
-                //Cell outputCell = outputRow.getCell(outputFileHeadersMap.get(header));
-                for (Map.Entry entry : cellData.entrySet()) {
-                    //System.out.println("Key: " + entry.getKey() + " Value: " + entry.getValue());
-                    Cell outputCell = outputRow.getCell((Integer) entry.getKey());
-                    outputCell.setCellValue(String.valueOf(entry.getValue()));
+                Iterator<Cell> cellIterator = outputRow.cellIterator();
+                while (cellIterator.hasNext()){
+                    Cell cell = cellIterator.next();
+                    cell.setCellValue(String.valueOf(entry.getValue()));
                 }
             }
         }

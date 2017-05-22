@@ -20,7 +20,9 @@ public class Main {
             //Берем документ Word, парсим его
             //parser.parse();
             //Выводим распарсенные данные в Excel
-            parser.parseOutExcel(parser.parse());
+            //parser.parseOutExcel(parser.parse());
+            //Пишем в Excel
+            parser.parseOutExcel2(parser.parse());
         } catch (ParseException exception) {
             String message = exception.getMessage();
             if (exception.getCause() != null) {
