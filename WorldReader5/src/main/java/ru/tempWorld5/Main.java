@@ -13,7 +13,7 @@ public class Main {
    // private static Logger log = LoggerFactory.getLogger(Main.class);
     private static ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
    // private static Parser parser = applicationContext.getBean(Parser.class);
-    private static Parser2 parser = applicationContext.getBean(Parser2.class);
+    private static Parser4 parser = applicationContext.getBean(Parser4.class);
 
     public static void main(String[] args) {
         try {
