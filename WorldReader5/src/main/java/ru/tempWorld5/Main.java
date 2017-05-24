@@ -13,7 +13,13 @@ public class Main {
    // private static Logger log = LoggerFactory.getLogger(Main.class);
     private static ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-config.xml");
    // private static Parser parser = applicationContext.getBean(Parser.class);
-    private static Parser4 parser = applicationContext.getBean(Parser4.class);
+    //Пишет в Excel, правда пока без учета адресов
+    //private static Parser5 parser = applicationContext.getBean(Parser5.class);
+    //Добавляет еще в Excel строку, в туже колонку, куда записал данные Parser5
+    //private static Parser6 parser = applicationContext.getBean(Parser6.class);
+    //Пишет в нужные ячейки, правда пока строки скачут
+    //private static Parser7 parser = applicationContext.getBean(Parser7.class);
+    private static Parser8 parser = applicationContext.getBean(Parser8.class);
 
     public static void main(String[] args) {
         try {
