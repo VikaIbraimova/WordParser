@@ -17,9 +17,17 @@ public class Main {
     //private static Parser5 parser = applicationContext.getBean(Parser5.class);
     //Добавляет еще в Excel строку, в туже колонку, куда записал данные Parser5
     //private static Parser6 parser = applicationContext.getBean(Parser6.class);
+
     //Пишет в нужные ячейки, правда пока строки скачут
-    //private static Parser7 parser = applicationContext.getBean(Parser7.class);
-    private static Parser8 parser = applicationContext.getBean(Parser8.class);
+    private static Parser7 parser = applicationContext.getBean(Parser7.class);
+
+    //Выводит инфрмацию, разобрав Word
+    //private static Parser8 parser = applicationContext.getBean(Parser8.class);
+    //Пока ерунда
+    //private static Parser9 parser = applicationContext.getBean(Parser9.class);
+
+    //Немного изменив алгоритм,тепрь добавляется только один элмент
+    //private static Parser10 parser = applicationContext.getBean(Parser10.class);
 
     public static void main(String[] args) {
         try {
