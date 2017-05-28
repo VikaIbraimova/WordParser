@@ -20,6 +20,9 @@
             <state relative-caret-position="629">
               <caret line="160" column="47" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="48" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1013#1014#0" expanded="false" />
+                <element signature="e#1047#1048#0" expanded="false" />
                 <element signature="method#parse#0;class#Parser2#0" expanded="false" />
                 <marker date="1495481224343" expanded="true" signature="1192:5749" ph="{...}" />
               </folding>
@@ -33,6 +36,9 @@
             <state relative-caret-position="663">
               <caret line="162" column="52" lean-forward="false" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1013#1014#0" expanded="false" />
+                <element signature="e#1047#1048#0" expanded="false" />
                 <element signature="method#parse#0;class#Parser3#0" expanded="false" />
               </folding>
             </state>
@@ -45,6 +51,9 @@
             <state relative-caret-position="833">
               <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1013#1014#0" expanded="false" />
+                <element signature="e#1047#1048#0" expanded="false" />
                 <element signature="method#parse#0;class#Parser4#0" expanded="false" />
               </folding>
             </state>
@@ -57,6 +66,9 @@
             <state relative-caret-position="629">
               <caret line="158" column="56" lean-forward="false" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="58" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#930#931#0" expanded="false" />
+                <element signature="e#964#965#0" expanded="false" />
                 <element signature="method#parse#0;class#Parser5#0" expanded="false" />
               </folding>
             </state>
@@ -69,6 +81,9 @@
             <state relative-caret-position="1173">
               <caret line="190" column="38" lean-forward="false" selection-start-line="189" selection-start-column="12" selection-end-line="190" selection-end-column="38" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#930#931#0" expanded="false" />
+                <element signature="e#964#965#0" expanded="false" />
                 <element signature="method#parse#0;class#Parser6#0" expanded="false" />
               </folding>
             </state>
@@ -78,10 +93,10 @@
       <file leaf-file-name="Parser7.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="148" column="28" lean-forward="true" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="30" />
+            <state relative-caret-position="828">
+              <caret line="190" column="5" lean-forward="false" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
               <folding>
-                <element signature="method#parse#0;class#Parser7#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +105,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="731">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,10 +117,12 @@
       <file leaf-file-name="Parser10.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="901">
               <caret line="174" column="5" lean-forward="false" selection-start-line="174" selection-start-column="5" selection-end-line="182" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#933#934#0" expanded="false" />
+                <element signature="e#967#968#0" expanded="false" />
                 <element signature="method#parse#0;class#Parser10#0" expanded="false" />
               </folding>
             </state>
@@ -115,9 +132,13 @@
       <file leaf-file-name="Parser8.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="160" column="43" lean-forward="false" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="2312">
+              <caret line="152" column="37" lean-forward="false" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#930#931#0" expanded="false" />
+                <element signature="e#964#965#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +148,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1700">
               <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#946#947#0" expanded="false" />
+                <element signature="e#980#981#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,11 +193,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser3.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser5.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser7.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser8.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser9.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser10.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser7.java" />
       </list>
     </option>
   </component>
@@ -197,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,7 +329,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,7 +595,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -581,13 +605,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5023866" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.49761337" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.49761337" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24821003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24761337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -610,7 +634,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -931,6 +955,9 @@
         <state relative-caret-position="629">
           <caret line="160" column="47" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="48" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1013#1014#0" expanded="false" />
+            <element signature="e#1047#1048#0" expanded="false" />
             <element signature="method#parse#0;class#Parser2#0" expanded="false" />
             <marker date="1495481224343" expanded="true" signature="1192:5749" ph="{...}" />
           </folding>
@@ -942,6 +969,9 @@
         <state relative-caret-position="833">
           <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1013#1014#0" expanded="false" />
+            <element signature="e#1047#1048#0" expanded="false" />
             <element signature="method#parse#0;class#Parser4#0" expanded="false" />
           </folding>
         </state>
@@ -952,6 +982,9 @@
         <state relative-caret-position="663">
           <caret line="162" column="52" lean-forward="false" selection-start-line="162" selection-start-column="52" selection-end-line="162" selection-end-column="52" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1013#1014#0" expanded="false" />
+            <element signature="e#1047#1048#0" expanded="false" />
             <element signature="method#parse#0;class#Parser3#0" expanded="false" />
           </folding>
         </state>
@@ -962,6 +995,9 @@
         <state relative-caret-position="629">
           <caret line="158" column="56" lean-forward="false" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="58" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
             <element signature="method#parse#0;class#Parser5#0" expanded="false" />
           </folding>
         </state>
@@ -972,7 +1008,23 @@
         <state relative-caret-position="1173">
           <caret line="190" column="38" lean-forward="false" selection-start-line="189" selection-start-column="12" selection-end-line="190" selection-end-column="38" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
             <element signature="method#parse#0;class#Parser6#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="174" column="5" lean-forward="false" selection-start-line="174" selection-start-column="5" selection-end-line="182" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="method#parse#0;class#Parser10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -981,33 +1033,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#980#981#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="160" column="43" lean-forward="false" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="174" column="5" lean-forward="false" selection-start-line="174" selection-start-column="5" selection-end-line="182" selection-end-column="55" />
+        <state relative-caret-position="2312">
+          <caret line="152" column="37" lean-forward="false" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#parse#0;class#Parser10#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="731">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1016,10 +1065,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/tempWorld5/Parser7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="148" column="28" lean-forward="true" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="30" />
+        <state relative-caret-position="828">
+          <caret line="190" column="5" lean-forward="false" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
           <folding>
-            <element signature="method#parse#0;class#Parser7#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

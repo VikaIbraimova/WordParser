@@ -146,27 +146,45 @@ public class Parser7 {
         }
     }
 
-    public void parseOutExcel2(Map<String,String> cellData){
-        String result = null;
-        //сюда заливаем из cellData
+    /*public void parseOutExcel2(Map<String,String> cellData){
         String outputFile = utils.getOutputFile();
         Workbook outputWorkbook = utils.getWorkBookFromFile(outputFile); // output книга
         Sheet outputFileSheet = outputWorkbook.getSheetAt(0); //лист, сюда будем писать
-        // get the last row number to append new data
-        //int rownum = outputFileSheet.getLastRowNum();
         for (Map.Entry entry : cellData.entrySet()){
-            System.out.println(entry.getValue());
             CellReference cellReference = new CellReference((String) entry.getKey());
-            int cellNum = cellReference.getCol();
-            System.out.println(cellNum);
+            System.out.println("saving to col: "+cellReference.getCol()+" row: "+cellReference.getRow());
             Row row = outputFileSheet.getRow(cellReference.getRow());
-            //System.out.println(row.getRowNum());
-            //Номер строки, где адреса ячеек
-            //int rownum = row.getRowNum();
-            int rownum = outputFileSheet.getLastRowNum();
-            rownum++;
-            row = outputFileSheet.createRow(rownum++);
-            Cell cell = row.createCell(cellNum);
+            if (row == null) {
+                outputFileSheet.createRow(cellReference.getRow());
+            }
+
+            //Cell cell = row.createCell(cellReference.getCol());
+            //cell.setCellValue(String.valueOf(entry.getValue()));
+
+            Cell cell = row.getCell(cellReference.getCol());
+            if (cell == null){
+                cell = row.createCell(cellReference.getCol());
+                cell.setCellValue(String.valueOf(entry.getValue()));
+            }
+        }
+        utils.saveWorkbook(outputWorkbook, outputFile);
+    }*/
+
+    public void parseOutExcel2(Map<String,String> cellData){
+        String outputFile = utils.getOutputFile();
+        Workbook outputWorkbook = utils.getWorkBookFromFile(outputFile); // output книга
+        Sheet outputFileSheet = outputWorkbook.getSheetAt(0); //лист, сюда будем писать
+        for (Map.Entry entry : cellData.entrySet()){
+            CellReference cellReference = new CellReference((String) entry.getKey());
+            System.out.println("saving to col: "+cellReference.getCol()+" row: "+cellReference.getRow());
+            Row row = outputFileSheet.getRow(cellReference.getRow());
+            if (row == null) {
+                row = outputFileSheet.createRow(cellReference.getRow());
+            }
+            Cell cell = row.getCell(cellReference.getCol());
+            if (cell == null) {
+                cell = row.createCell(cellReference.getCol());
+            }
             cell.setCellValue(String.valueOf(entry.getValue()));
         }
         utils.saveWorkbook(outputWorkbook, outputFile);

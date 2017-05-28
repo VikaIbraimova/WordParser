@@ -23,6 +23,7 @@ public class Main {
 
     //Выводит инфрмацию, разобрав Word
     //private static Parser8 parser = applicationContext.getBean(Parser8.class);
+
     //Пока ерунда
     //private static Parser9 parser = applicationContext.getBean(Parser9.class);
 
