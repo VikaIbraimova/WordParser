@@ -33,7 +33,7 @@ public class Parser7 {
     }
 
     public Map<String, String> parse() {
-        try (FileInputStream fileInputStream = new FileInputStream("F:/Apache POI Word Test3.docx")) {
+        try (FileInputStream fileInputStream = new FileInputStream("import/Apache POI Word Test3.docx")) {
             //try (FileInputStream fileInputStream = new FileInputStream("Temp.docx")) {
 
             // открываем файл и считываем его содержимое в объект XWPFDocument
@@ -167,7 +167,7 @@ public class Parser7 {
                 cell.setCellValue(String.valueOf(entry.getValue()));
             }
         }
-        utils.saveWorkbook(outputWorkbook, outputFile);
+.        utils.saveWorkbook(outputWorkbook, outputFile);
     }*/
 
     public void parseOutExcel2(Map<String,String> cellData){
